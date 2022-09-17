@@ -53,9 +53,8 @@ body{
 /* Feature Section */
 
 #features {
-    width: 90%;
     margin: auto;
-    padding: 8% 3%;
+    padding: 20% 3%;
 }
 
 .feature-items{
@@ -79,4 +78,35 @@ body{
 
 .feature-icon:hover {
     color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+    padding: 20% 3% 10%;
+    text-align: center;
+    color: #fff;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-image {
+    width: 15%;
+    padding: 20px 20px 50px;
 }
