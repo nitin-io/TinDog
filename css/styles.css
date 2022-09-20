@@ -49,7 +49,7 @@ body{
 /* Download Buttons */
 
 .downlaod-button {
-    margin: 5% 3% 5% 0;
+    margin: 5% 3% 0;
 }
 
 /* Feature Section */
@@ -123,6 +123,7 @@ body{
 
 #pricing {
     padding: 5% 5%;
+    font-weight: 900;
 }
 
 .pricing-column {
@@ -130,3 +131,40 @@ body{
     text-align: center;
 }
 
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 12% 0;
+}
+
+#cta h3 {
+    font-weight: 900;
+    color: #fff;
+}
+
+
+.downlaod-button-cta {
+    margin: 1% 1% 0;
+}
+
+@media (max-width: 1028px) {
+    #iphone-mockup-img {
+        transform: rotate(0);
+        position: static;
+        width: 60%;
+        padding-top: 5%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#footer {
+    padding: 10% 0 0;
+    text-align: center;
+}
+
+.footer-icon {
+    padding: 0 3% 3%;
+}
